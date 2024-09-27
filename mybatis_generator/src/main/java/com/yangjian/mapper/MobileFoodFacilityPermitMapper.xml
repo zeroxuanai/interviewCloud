@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yangjian.mapper.MobileFoodFacilityPermitMapper">
+  <resultMap id="BaseResultMap" type="com.yangjian.entities.MobileFoodFacilityPermit">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="locationid" jdbcType="INTEGER" property="locationid" />
+    <result column="cnn" jdbcType="INTEGER" property="cnn" />
+    <result column="lot" jdbcType="INTEGER" property="lot" />
+    <result column="X" jdbcType="DOUBLE" property="x" />
+    <result column="Y" jdbcType="DOUBLE" property="y" />
+    <result column="Latitude" jdbcType="DOUBLE" property="latitude" />
+    <result column="Longitude" jdbcType="DOUBLE" property="longitude" />
+    <result column="Received" jdbcType="INTEGER" property="received" />
+    <result column="PriorPermit" jdbcType="INTEGER" property="priorpermit" />
+    <result column="Fire Prevention Districts" jdbcType="INTEGER" property="firePreventionDistricts" />
+    <result column="Police Districts" jdbcType="INTEGER" property="policeDistricts" />
+    <result column="Supervisor Districts" jdbcType="INTEGER" property="supervisorDistricts" />
+    <result column="Zip Codes" jdbcType="INTEGER" property="zipCodes" />
+    <result column="Neighborhoods" jdbcType="INTEGER" property="neighborhoods" />
+    <result column="Applicant" jdbcType="LONGVARCHAR" property="applicant" />
+    <result column="FacilityType" jdbcType="LONGVARCHAR" property="facilitytype" />
+    <result column="LocationDescription" jdbcType="LONGVARCHAR" property="locationdescription" />
+    <result column="Address" jdbcType="LONGVARCHAR" property="address" />
+    <result column="blocklot" jdbcType="LONGVARCHAR" property="blocklot" />
+    <result column="block" jdbcType="LONGVARCHAR" property="block" />
+    <result column="permit" jdbcType="LONGVARCHAR" property="permit" />
+    <result column="Status" jdbcType="LONGVARCHAR" property="status" />
+    <result column="FoodItems" jdbcType="LONGVARCHAR" property="fooditems" />
+    <result column="Schedule" jdbcType="LONGVARCHAR" property="schedule" />
+    <result column="dayshours" jdbcType="LONGVARCHAR" property="dayshours" />
+    <result column="NOISent" jdbcType="LONGVARCHAR" property="noisent" />
+    <result column="Approved" jdbcType="LONGVARCHAR" property="approved" />
+    <result column="ExpirationDate" jdbcType="LONGVARCHAR" property="expirationdate" />
+    <result column="Location" jdbcType="LONGVARCHAR" property="location" />
+  </resultMap>
+</mapper>
